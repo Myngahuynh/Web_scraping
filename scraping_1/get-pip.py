@@ -22,6 +22,7 @@
 
 import sys
 nga
+nasdadsasdasda
 this_python = sys.version_info[:2]
 min_version = (3, 7)
 if this_python < min_version:
