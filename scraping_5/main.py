@@ -7,7 +7,7 @@ url = 'https://www.accommodationforstudents.com/search-results?location=London&b
 r = requests.get(url)
 
 soup = BeautifulSoup(r.content, 'html.parser')
-
+1111111111111
 
 script = soup.find('script', id='__NEXT_DATA__').text.strip()
 data =json.loads(script)
