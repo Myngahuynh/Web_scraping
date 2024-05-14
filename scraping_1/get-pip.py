@@ -21,7 +21,7 @@
 # `scripts/generate.py` in https://github.com/pypa/get-pip.
 
 import sys
-
+nga
 this_python = sys.version_info[:2]
 min_version = (3, 7)
 if this_python < min_version:
